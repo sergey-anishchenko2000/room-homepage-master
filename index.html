@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Room homepage</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/main/main.css">
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light position-absolute mt-4">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand mx-auto" href="#">room</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="carouselControls" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="images/mobile-image-hero-1.jpg">
+                                    <source media="(min-width: 800px)" srcset="images/desktop-image-hero-1.jpg">
+                                    <img id="imgHeight" src="images/desktop-image-hero-1.jpg" alt="" width="100%" height="auto">
+                                </picture>
+                            </div>
+
+                            <div class="col-md-5 bg-white d-flex align-items-center justify-content-center">
+                                <div class="mob-carousel-box web-carousel-box">
+                                    <h1>Discover innovative ways to decorate</h1>
+                                    <p>We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and
+                                        make your property a reflection of you and what you love
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-uppercase font-14 letter-spacing-6 mr-4">shop now</span>
+                                        <img class="d-block" src="images/icon-arrow.svg" alt="" height="8" width="auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="images/mobile-image-hero-2.jpg">
+                                    <source media="(min-width: 800px)" srcset="images/desktop-image-hero-2.jpg">
+                                    <img id="imgHeight" src="images/desktop-image-hero-2.jpg" alt="" width="100%" height="auto">
+                                </picture>
+                            </div>
+                            <div class="col-md-5 bg-white d-flex align-items-center justify-content-center">
+                                <div class="mob-carousel-box web-carousel-box">
+                                    <h1>We are available all across the globe</h1>
+                                    <p>With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator.
+                                        Any questions? Don't hesitate to contact us today.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-uppercase font-14 letter-spacing-6 mr-4">shop now</span>
+                                        <img class="d-block" src="images/icon-arrow.svg" alt="" height="8" width="auto">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="images/mobile-image-hero-3.jpg">
+                                    <source media="(min-width: 800px)" srcset="images/desktop-image-hero-3.jpg">
+                                    <img id="imgHeight" src="images/desktop-image-hero-3.jpg" alt="" width="100%" height="auto">
+                                </picture>
+                            </div>
+                            <div class="col-md-5 bg-white d-flex align-items-center justify-content-center">
+                                <div class="mob-carousel-box web-carousel-box">
+                                    <h1>Manufactured with the best materials</h1>
+                                    <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience
+                                        in this industry, we understand what customers want for their home and office.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-uppercase font-14 letter-spacing-6 mr-5">shop now</span>
+                                        <img class="d-block" src="images/icon-arrow.svg" alt="" height="8" width="auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a id="carouselPrev" class="d-md-block d-none carousel-control-prev carousel-control-prev-web-pos" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon web-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a id="carouselNext" class="d-md-block d-none carousel-control-next carousel-control-next-web-pos" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon web-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <a id="carouselPrev1" class="d-md-none carousel-control-prev carousel-control-prev-mob-pos" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon mob-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a id="carouselNext1" class="d-md-none carousel-control-next carousel-control-next-mob-pos" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon mob-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="img-box-1">
+                    <img src="images/image-about-dark.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="about-box">
+                    <div class="d-flex mob-about-box-p bg-white web-about-box-p h-size align-items-center">
+                        <div class="text-left">
+                            <div class="about-title text-uppercase">About our furniture</div>
+                            <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you
+                                need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-box-2">
+                    <img src="images/image-about-light.jpg" alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            updateContainer();
+            $(window).resize(function() {
+                updateContainer();
+            });
+        });
+
+        function updateContainer() {
+            $(document).ready(function() {
+
+                var divWidth1 = $("#carouselPrev").width();
+                var divWidth2 = $("#carouselNext").width();
+
+                var divWidth11 = $("#carouselPrev1").width();
+                var divWidth22 = $("#carouselNext1").width();
+
+                var imgHeight = $("#imgHeight").height();
+                var iconBtm = 394.547 - divWidth11 + 'px';
+                // console.log(iconBtm);
+                console.log(imgHeight);
+                $("#carouselPrev1").css("top", iconBtm);
+                $("#carouselNext1").css("top", iconBtm);
+
+
+                $("#carouselPrev").css("bottom", "0px");
+                $("#carouselNext").css("bottom", "0px");
+
+                $("#carouselPrev").height(divWidth1);
+                $("#carouselNext").height(divWidth2);
+
+                $("#carouselPrev1").height(divWidth11);
+                $("#carouselNext1").height(divWidth22);
+
+            })
+        }
+    </script>
+</body>
+
+</html>
